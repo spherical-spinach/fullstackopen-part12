@@ -1,0 +1,5 @@
+root@93fab480cc43:/usr/src/app# apt -y install curl
+root@93fab480cc43:/usr/src/app# curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+root@93fab480cc43:/usr/src/app# node index.js 
+Hello World
