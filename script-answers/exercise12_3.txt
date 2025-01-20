@@ -1,0 +1,5 @@
+root@93fab480cc43:/# nano /usr/src/app/index.js 
+root@93fab480cc43:/# cd /usr/src/app/
+root@93fab480cc43:/usr/src/app# cat index.js 
+console.log('Hello World')
+root@93fab480cc43:/usr/src/app#
