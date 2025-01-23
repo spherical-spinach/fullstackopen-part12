@@ -1,0 +1,12 @@
+> docker compose -f docker-compose.dev.yml up
+> docker ps
+> docker exec -it todo-backend-mongo-1 bash
+> mongosh -u root -p example
+> show dbs
+> show collections
+> db.todos.find({})
+> db.todos.insertOne({text: 'Increase the number of tools in my tool belt', done: false})
+> db.todos.find({})
+> exit
+> exit
+> MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
